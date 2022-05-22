@@ -20,7 +20,7 @@ class Config:
 
     Link_Root = f"https://{App_Name}.herokuapp.com/"
     Download_Folder = "Files"
-    Dev_Channel = "ElJoker63"
+    Dev_Channel = "FriendXfriendss"
     Bot_UserName = None  # The bot will set it after starting
     Part_size = 10 * 1024 * 1024  # (10MB) For Pyrogram
     Buffer_Size = 512 * 1024  # For Quart
@@ -32,21 +32,21 @@ class Config:
 
 class Strings:
     start = Config.Start_Message
-    dl_link = "🔗 Download LINK"
-    st_link = "🎞 Stream LINK"
-    generating_link = "**⏳ Generating Link...**"
-    bot_channel = "📢 Bot Channel"
-    dev_channel = "🤖 Developer"
-    fast = "⚡️**The link has been updated to a fast link**"
-    update_link = "⚡ Update To Fast Link"
+    dl_link = "🔗 Enlace de descarga"
+    st_link = "🎞 Enlace de video"
+    generating_link = "**⏳Generando enlace"
+    bot_channel = "📢 Canal del bot"
+    dev_channel = "🤖 Desarollador"
+    fast = "⚡️**Este link a sido mejorado correctamente**"
+    update_link = "⚡ Link mejorado para mas velocidad"
     update_limited = (f"⛔ You can update just {Config.Max_Fast_Processes} link in one time, "
                       "please wait until previous update to complete")
-    re_update_link = "🔄 Re-Updating the link"
-    already_updated = "The link is already updated"
-    wait_update = "⏳ Updating the link..."
-    wait = "⏳ Please wait..."
-    progress = "⏳ Progress"
-    file_not_found = "⚠️File Not Found, Please resend it again"
-    delete_manually_button = "⚠️You can delete it"
+    re_update_link = "🔄 Volver a mejorar link"
+    already_updated = "Ya as mejorado este link"
+    wait_update = "⏳ Mejorando link..."
+    wait = "⏳ Espere porfavor..."
+    progress = "⏳ Prosesando"
+    file_not_found = "⚠️El archivo no se encuentra, reintentalo porfavor"
+    delete_manually_button = "⚠️Borrado"
     delete_forbidden = "The bot can't delete messages older than 48 hours, you can delete this message manually"
-    force_join = "⚠ Join Bot Channel to use this Bot"
+    force_join = "⚠Unete al canal para poder usar el bot"
